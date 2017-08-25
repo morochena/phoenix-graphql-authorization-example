@@ -41,7 +41,7 @@ defmodule Blog.Mixfile do
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.4.0-beta.3"},
       {:absinthe_plug, "~> 1.4.0-beta.1"},
-      {:blanka, git: "https://github.com/morochena/blanka.git"}
+      {:blanka, "~> 0.1.0"}
     ]
   end
 
