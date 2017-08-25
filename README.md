@@ -1,4 +1,4 @@
-# Blog
+# Phoenix 1.3 Abinsthe Authorization Example
 
 To start your Phoenix server:
 
@@ -36,6 +36,8 @@ To test:
   }
   ```
 
+  ---
+
   #### query (w/ header: authorization: "useratoken")
   ```
   {
@@ -60,7 +62,9 @@ To test:
   }
   ```
 
-  #### mutation
+  ---
+
+  #### mutation (unauthorized)
   ```
   mutation CreatePost {
     createPost(title: "Post Title", body:"Body of the post.") {
@@ -92,6 +96,8 @@ To test:
     }
   }
   ```
+
+  ---
 
   #### mutation (w/ header: authorization: "userbtoken")
   ```
